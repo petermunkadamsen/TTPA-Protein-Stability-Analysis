@@ -1,25 +1,29 @@
-# Python DNA Motif Search
+# TTPA Protein Stability Analysis
 
-A Python-based bioinformatics tool for identifying DNA sequence motifs using configurable patterns, gaps, and deviation penalties.
+Computational analysis of TTPA protein variants, focusing on mutation effects, protein stability, and structure–function relationships.
 
-## Features
+## Project overview
 
-* Reads DNA sequences from FASTA and text files
-* Searches for specified DNA motifs
-* Supports alternative nucleotides
-* Supports configurable gaps
-* Allows a maximum deviation/penalty
-* Reports motif positions, sequences, and penalty scores
+This project was completed as part of the DTU course *Protein Structure and Computational Biology*.
 
-## Usage
+The project investigated how selected missense mutations in the TTPA protein affect protein stability and structural behavior.
 
-```bash
-python3 motif_search.py <sequence_file> <signal_description_file> <deviation>
-```
+## Methods and tools
 
-## Technologies
+- MutateX / FoldX
+- PyMOL
+- Protein structure analysis
+- Mutation stability analysis
+- Structural data interpretation
 
-* Python 3
-* Regular expressions
-* FASTA sequence handling
-* Bioinformatics
+## Key focus areas
+
+- Protein stability
+- Mutation effects
+- Structure–function relationships
+- Local structural interactions
+- Computational protein analysis
+
+## Report
+
+The full project report is included in this repository.
